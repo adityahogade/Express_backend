@@ -11,6 +11,9 @@ const {authUser} =require("./utils/auth")
 
 
 const app=express();
+const PORT = process.env.PORT || 3000;
+
+
 app.use(cors())
 app.use(authUser);
 app.use(express.json());
@@ -23,6 +26,6 @@ app.use("/video",videoRoutes)
 app.use("/admin",admin)
 
 
-app.listen(3000,()=>{
-    console.log('Server is running on port 3000');
+app.listen(PORT,()=>{
+    console.log(`Server is running on port ${PORT}`);
 })
