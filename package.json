@@ -1,0 +1,32 @@
+{
+  "name": "mern_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityahogade/MERN_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityahogade/MERN_Project/issues"
+  },
+  "homepage": "https://github.com/adityahogade/MERN_Project#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.1",
+    "react-router": "^7.11.0",
+    "react-toastify": "^11.0.5"
+  },
+  "keywords": []
+}
