@@ -1,6 +1,6 @@
 
 const jwt = require("jsonwebtoken")
-const config = require("./config")
+const config = require("./config.js")
 const result = require("./result")
 
 function authUser(req,res,next){
